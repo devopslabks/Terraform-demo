@@ -9,7 +9,8 @@ terraform {
   }
 }
 
-resource "local_file" "devops" {
-  filename = "${path.module}/devops.txt"
-  content  = "I am practicing Terraform for my Junior DevOps Engineer career."
+resource "local_file" "devops_project" {
+  filename = "${path.module}/devops-project.txt"
+
+  content = var.project_message
 }

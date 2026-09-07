@@ -1,0 +1,1 @@
+I am practicing Terraform for my Junior DevOps Engineer career.
